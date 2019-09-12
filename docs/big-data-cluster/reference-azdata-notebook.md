@@ -56,6 +56,7 @@ JMESPath query string. See [http://jmespath.org/](http://jmespath.org/]) for mor
 Increase logging verbosity. Use --debug for full debug logs.
 ## azdata notebook run
 This command creates a temporary directory and executes the given notebook within it as the working directory.
+[!NOTE] azdata v15.0.1900: run command currently supported for Python 3 notebooks only.
 ```bash
 azdata notebook run --path -p 
                     [--output-path]  
